@@ -1,4 +1,4 @@
-jughyd.github.io
-================
+JUG Hyderabad JBake
+====================
 
 JUG Hyderabad Website
