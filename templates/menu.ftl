@@ -15,7 +15,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">About us</a>
                     </li>
                     <li>
                         <a href="services.html">Services</a>
@@ -23,23 +23,26 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
+					 <li>
+                        <a href="contact.html">News</a>
+                    </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">Monthly Meeting</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Hackergarten</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">Coderetreat</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.html">Adopt a JSR</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-item.html">OS Contribution</a>
                             </li>
                         </ul>
                     </li>
