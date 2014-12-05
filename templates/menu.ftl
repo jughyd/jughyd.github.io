@@ -26,6 +26,23 @@
 					 <li>
                         <a href="contact.html">News</a>
                     </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">101 to Contribute</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">How to participate</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">Adopt-a-JSR</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">Hackergarten</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities<b class="caret"></b></a>
                         <ul class="dropdown-menu">
