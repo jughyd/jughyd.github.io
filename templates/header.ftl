@@ -6,21 +6,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Header file for JUG Hyderabad site">
+    <meta name="author" content="Mani Manasa Mylavarapu">
 
     <title>Java User Group - Hyderabad</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+	<link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/modern-business.css" rel="stylesheet">
 	
-	<link href="css/bootswatch-cerulean.css" rel="stylesheet">
+	<link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/bootswatch-cerulean.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +32,4 @@
 </head>
 
 <body>
-<#include "menu.ftl">
-
     <!-- Page Content -->
-    <div class="container">
