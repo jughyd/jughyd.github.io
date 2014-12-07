@@ -1,23 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://jbake.orgabout.html</loc>
+        <loc>http://jbake.orgpages/navigation/about.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/easytojoin.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgblog/2013/fourth-post.html</loc>
-        <lastmod>2013-10-17</lastmod>
+        <loc>http://jbake.orgpages/funinlearning.html</loc>
+        <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgblog/2013/third-post.html</loc>
-        <lastmod>2013-09-26</lastmod>
+        <loc>http://jbake.orgpages/learninghub.html</loc>
+        <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgblog/2013/second-post.html</loc>
-        <lastmod>2013-08-25</lastmod>
+        <loc>http://jbake.orgpages/navigation/activities/adoptajsr.html</loc>
+        <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgblog/2013/first-post.html</loc>
-        <lastmod>2013-07-24</lastmod>
+        <loc>http://jbake.orgpages/navigation/activities/coderetreat.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/activities/hackergarten.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/activities/monthlymeeting.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/activities/oscontribution.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/contact.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/getting started/101tocontribute.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/getting started/howtoparticipate.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/getting started/learnnewtechnology.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/navigation/services.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/blogs-posts/blog-1.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/blogs-posts/blog-2.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/blogs-posts/blog-3.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/news-posts/news-post1.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/news-posts/news-post2.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgposts/news-posts/news-post3.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgblog/blog-index.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgnews/news-index.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/blog-pages/blog-page-1.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/blog-pages/blog-page-2.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/blog-pages/blog-page-3.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/news-pages/news-page-1.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/news-pages/news-page-2.html</loc>
+        <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgpages/news-pages/news-page-3.html</loc>
+        <lastmod>2014-12-02</lastmod>
     </url>
 </urlset>
