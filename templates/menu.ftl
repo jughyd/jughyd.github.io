@@ -27,9 +27,9 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<#list pages as page>
+								<#list getstartacts as page>
 									<#if page.tags ??>
-										<#if (page.tags[0] == "navigation") && (page.tags[1] == "dropdown") && (page.tags[2] == "gettingstarted")>
+										<#if (page.tags[0] == "Getting Started")>
 											<li>
 												<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${page.uri}">${page.title}</a>
 											</li>
@@ -42,9 +42,9 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<#list pages as page>
+								<#list getstartacts as page>
 									<#if page.tags ??>
-										<#if (page.tags[0] == "navigation") && (page.tags[1] == "dropdown") && (page.tags[2] == "activities")>
+										<#if (page.tags[0] == "Activities")>
 											<li>
 												<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${page.uri}">${page.title}</a>
 											</li>
@@ -55,10 +55,10 @@
 							</ul>
 						</li>
 						<li>
-							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>news/news-index.html">News</a>
+							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>news/index.html">News</a>
 						</li>
 						<li>
-							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/blog-index.html">Blogs</a>
+							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blogs/index.html">Blogs</a>
 						</li>
 					</ul>
 				</div>

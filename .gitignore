@@ -2,7 +2,7 @@
 .DS_Store
 dependency-reduced-pom.xml
 target/
-outout/
+output/
 .classpath
 .project
 .settings
