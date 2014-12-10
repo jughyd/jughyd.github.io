@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://jbake.orgpages/navigation/about.html</loc>
+        <loc>http://jbake.orgabout.html</loc>
         <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgcontact.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgFAQ.html</loc>
+        <lastmod>2013-09-24</lastmod>
     </url>
     <url>
         <loc>http://jbake.orgpages/easytojoin.html</loc>
@@ -14,46 +22,6 @@
     </url>
     <url>
         <loc>http://jbake.orgpages/learninghub.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/activities/adoptajsr.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/activities/coderetreat.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/activities/hackergarten.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/activities/monthlymeeting.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/activities/oscontribution.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/contact.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/getting started/101tocontribute.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/getting started/howtoparticipate.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/getting started/learnnewtechnology.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgpages/navigation/services.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
@@ -81,11 +49,11 @@
         <lastmod>2014-12-02</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgblog/blog-index.html</loc>
+        <loc>http://jbake.orgblogs/index.html</loc>
         <lastmod>2014-12-02</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgnews/news-index.html</loc>
+        <loc>http://jbake.orgnews/index.html</loc>
         <lastmod>2014-12-02</lastmod>
     </url>
     <url>
@@ -111,5 +79,37 @@
     <url>
         <loc>http://jbake.orgpages/news-pages/news-page-3.html</loc>
         <lastmod>2014-12-02</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgactivities/adoptajsr.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgactivities/coderetreat.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgactivities/hackergarten.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgactivities/monthlymeeting.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orgactivities/oscontribution.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orggetting started/101toparticipate.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orggetting started/howtoparticipate.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jbake.orggetting started/learnnewtechnology.html</loc>
+        <lastmod>2013-09-24</lastmod>
     </url>
 </urlset>
