@@ -31,7 +31,7 @@
 						<div class="col-md-5">
 							<h3>${post.title}</h3>
 							<p>${post.body}</p>
-							<a class="btn btn-primary" href="\pages\news-pages\${post.tags[1]}">View Project</i></a>
+							<a class="btn btn-primary" href="\pages\news-pages\${post.tags[1]}">Read More</i></a>
 						</div>
 					</div>
 					<!-- /.row -->
