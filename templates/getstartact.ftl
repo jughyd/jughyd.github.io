@@ -17,14 +17,43 @@
         </div>
         <!-- /.row -->
 
-        <!-- Intro Content -->
-        <div class="row">
+         <!-- Intro Content -->
+		<div class="row">
             <div class="col-md-6">
                 <img class="img-responsive" src="../images/${content.title}.jpg" alt="">
             </div>
             <div class="col-md-6">
 				<h2>${content.title}</h2>
-                ${content.body}
-            </div>
-        </div>
+				${content.body}
+		    </div>
+		</div>
+		<#list posts as post> 
+			<#if post.tags[0] ??>
+					<#if (post.tags[0] == "Getting Started")>
+					    <#if (post.title == content.tags[1])>
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
+						 <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                ${post.body}
+                            </div>
+                        </div>
+						</#if>
+					</#if>
+					<#if (post.tags[0] == "Activities")>
+					 <#if (post.title == content.tags[1])>
+					 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
+						 <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                ${post.body}
+                            </div>
+                        </div>
+						</#if>
+					</#if>
+				<#else>
+				</#if>
+			</#list>
+			 
+       
+		
+		
 <#include "footer.ftl">
