@@ -107,7 +107,7 @@
 							text_align2: "left",
 							corner: "off",
 							scrollbar: "off",
-							autoscroll: "on",
+							autoscroll: "off",
 							scrolldirection: "up",
 							scrollstep: "3",
 							mcspeed: "20",
