@@ -31,7 +31,7 @@
 			<#if post.tags[0] ??>
 					<#if (post.tags[0] == "Getting Started")>
 					    <#if (post.title == content.tags[1])>
-						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
+						<a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
 						 <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body">
                                 ${post.body}
@@ -41,7 +41,7 @@
 					</#if>
 					<#if (post.tags[0] == "Activities")>
 					 <#if (post.title == content.tags[1])>
-					 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
+					 <a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
 						 <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                 ${post.body}

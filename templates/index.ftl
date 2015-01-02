@@ -52,77 +52,101 @@
                     Welcome to Java User Group - Hyderabad
                 </h1>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Fun in learning</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="funinlearning.html" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Learning Hub</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="learninghub.html" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Join</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="easytojoin.html" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
+			<div class="col-lg-12">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+			</div>
         </div>
         <!-- /.row -->
 
         <!-- Portfolio Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Meetups</h2>
+			<div>
+				<div class="col-lg-12">
+					<h2 class="page-header">Meetups</h2>
+				</div>
+				<div class="col-lg-13">
+					<a href="portfolio-item.html">
+						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+					</a>
+				</div>
+				<div class="col-lg-13">
+					<a href="portfolio-item.html">
+						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+					</a>
+				</div>
+				<div class="col-lg-13">
+					<a href="portfolio-item.html">
+						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+					</a>
+				</div>
+				<div class="col-lg-13">
+					<a href="portfolio-item.html">
+						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+					</a>
+				</div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
+			<div>
+				<!-- start feedwind code -->
+				<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
+				<script type="text/javascript">
+				(
+					function() {
+						var params = 
+						{
+							rssmikle_url: "http://www.meetup.com/jughyderabad/events/rss/",
+							rssmikle_frame_width: "300",
+							rssmikle_frame_height: "500",
+							frame_height_by_article: "",
+							rssmikle_target: "_blank",
+							rssmikle_font: "Arial, Helvetica, sans-serif",
+							rssmikle_font_size: "12",
+							rssmikle_border: "off",
+							responsive: "off",
+							rssmikle_css_url: "",
+							text_align: "left",
+							text_align2: "left",
+							corner: "off",
+							scrollbar: "off",
+							autoscroll: "on",
+							scrolldirection: "up",
+							scrollstep: "3",
+							mcspeed: "20",
+							sort: "New",
+							rssmikle_title: "on",
+							rssmikle_title_sentence: "",
+							rssmikle_title_link: "",
+							rssmikle_title_bgcolor: "#0066FF",
+							rssmikle_title_color: "#FFFFFF",
+							rssmikle_title_bgimage: "",
+							rssmikle_item_bgcolor: "#FFFFFF",
+							rssmikle_item_bgimage: "",
+							rssmikle_item_title_length: "55",
+							rssmikle_item_title_color: "#0066FF",
+							rssmikle_item_border_bottom: "on",
+							rssmikle_item_description: "on",
+							item_link: "off",
+							rssmikle_item_description_length: "150",
+							rssmikle_item_description_color: "#666666",
+							rssmikle_item_date: "gl1",
+							rssmikle_timezone: "Etc/GMT",
+							datetime_format: "%b %e, %Y %l:%M:%S %p",
+							item_description_style: "text+tn",
+							item_thumbnail: "full",
+							article_num: "15",
+							rssmikle_item_podcast: "off",
+							keyword_inc: "",
+							keyword_exc: ""
+						};
+						feedwind_show_widget_iframe(params);
+					}
+				)();
+				</script>
+				<div style="font-size:10px; text-align:left;">
+					<a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
+					<!--Added the link according to Terms of Service.-->
+				</div>
+				<!-- end feedwind code -->
+			</div>
         </div>
         <!-- /.row -->
 
