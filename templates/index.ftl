@@ -60,33 +60,51 @@
 
         <!-- Portfolio Section -->
         <div class="row">
-			<div>
-				<div class="col-lg-12">
-					<h2 class="page-header">Meetups</h2>
-				</div>
-				<div class="col-lg-13">
-					<a href="portfolio-item.html">
-						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-					</a>
-				</div>
-				<div class="col-lg-13">
-					<a href="portfolio-item.html">
-						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-					</a>
-				</div>
-				<div class="col-lg-13">
-					<a href="portfolio-item.html">
-						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-					</a>
-				</div>
-				<div class="col-lg-13">
-					<a href="portfolio-item.html">
-						<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-					</a>
-				</div>
+			<div class="col-lg-12">
+				<h2 class="page-header">Activities</h2>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>activities/hackergarten.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+        </div>
+        <!-- /.row -->
+		
+		
+		
+		    <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Events </h2>
             </div>
-			<div>
-				<!-- start feedwind code -->
+            <div class="col-lg-12">
+               <!-- start feedwind code -->
 				<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
 				<script type="text/javascript">
 				(
@@ -96,23 +114,23 @@
 							rssmikle_url: "http://www.meetup.com/jughyderabad/events/rss/",
 							rssmikle_frame_width: "300",
 							rssmikle_frame_height: "500",
-							frame_height_by_article: "",
+							frame_height_by_article: "3",
 							rssmikle_target: "_blank",
 							rssmikle_font: "Arial, Helvetica, sans-serif",
 							rssmikle_font_size: "12",
 							rssmikle_border: "off",
-							responsive: "off",
+							responsive: "on",
 							rssmikle_css_url: "",
 							text_align: "left",
 							text_align2: "left",
 							corner: "off",
 							scrollbar: "off",
-							autoscroll: "on",
+							autoscroll: "off",
 							scrolldirection: "up",
 							scrollstep: "3",
 							mcspeed: "20",
 							sort: "New",
-							rssmikle_title: "on",
+							rssmikle_title: "off",
 							rssmikle_title_sentence: "",
 							rssmikle_title_link: "",
 							rssmikle_title_bgcolor: "#0066FF",
@@ -130,7 +148,7 @@
 							rssmikle_item_date: "gl1",
 							rssmikle_timezone: "Etc/GMT",
 							datetime_format: "%b %e, %Y %l:%M:%S %p",
-							item_description_style: "text+tn",
+							item_description_style: "text",
 							item_thumbnail: "full",
 							article_num: "15",
 							rssmikle_item_podcast: "off",
@@ -141,14 +159,16 @@
 					}
 				)();
 				</script>
-				<div style="font-size:10px; text-align:left;">
-					<a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
-					<!--Added the link according to Terms of Service.-->
-				</div>
-				<!-- end feedwind code -->
-			</div>
+            </div>
+           
         </div>
         <!-- /.row -->
+		
+		
+		
+		
+		
+		
 
         <!-- Features Section -->
         <div class="row">
