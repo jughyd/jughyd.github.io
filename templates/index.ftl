@@ -1,7 +1,7 @@
 <#include "header.ftl">
 
    <#include "menu.ftl">
-
+<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -68,7 +68,7 @@
             </div>
         </div>
 		  <!-- /.row -->
-<!-- News Section -->
+		<!-- News Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">News </h2>
@@ -76,23 +76,27 @@
             <div class="col-lg-12">
 			<#assign countSigned = 0> 
             <#list posts as post> 
-			<#if post.tags ??>
-				<#if (post.tags[0] =="news") && (countSigned<=3)>
-					<!-- Project One -->
-					<div class="row">
-						<div class="col-md-5">
-							<b>${post.title}</b>
-							<p>${post.body}</p>
+				<#if post.tags ??>
+					<#if (post.tags[0] =="news") && (countSigned<=3)>
+						<!-- Project One -->
+						<div class="feed_item">
+							<div class="feed_item_title">
+								<a href="\pages\news-pages\${post.tags[1]}">
+									<b>${post.title}</b>
+								</a>
+							</div>
+							<div class="feed_item_description">
+								<p>${post.body}</p>
+							</div>						
 						</div>
-					</div>
-					<!-- /.row -->
+						<!-- /.row -->
 
-					<hr>
-					 <#assign countSigned = countSigned + 1>
+						<hr>
+						 <#assign countSigned = countSigned + 1>
+					</#if> 
+				<#else> 
 				</#if> 
-			<#else> 
-			</#if> 
-		</#list>  
+			</#list>  
 				
             </div>
            
@@ -106,7 +110,7 @@
             </div>
             <div class="col-lg-12">
                <!-- start feedwind code -->
-				<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
+				
 				<script type="text/javascript">
 				(
 					function() {
