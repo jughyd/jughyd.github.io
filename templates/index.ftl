@@ -81,7 +81,7 @@
 					<!-- Project One -->
 					<div class="row">
 						<div class="col-md-5">
-							<h3>${post.title}</h3>
+							<b>${post.title}</b>
 							<p>${post.body}</p>
 						</div>
 					</div>
