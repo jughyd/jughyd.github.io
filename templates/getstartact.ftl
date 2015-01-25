@@ -24,34 +24,35 @@
             </div>
             <div class="col-md-6">
 				<h2>${content.title}</h2>
-				${content.body}
-		    </div>
-		</div>
-		<#list posts as post> 
+				<#list posts as post> 
 			<#if post.tags[0] ??>
 					<#if (post.tags[0] == "Getting Started")>
 					    <#if (post.title == content.tags[1])>
-						<a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
+						<!--<a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
 						 <div id="collapseOne" class="panel-collapse collapse">
-                            <div class="panel-body">
+                            <div class="panel-body">-->
                                 ${post.body}
-                            </div>
-                        </div>
+                          <!--  </div>
+                        </div>-->
 						</#if>
 					</#if>
 					<#if (post.tags[0] == "Activities")>
 					 <#if (post.title == content.tags[1])>
-					 <a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
+					<!-- <a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
 						 <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
+                            <div class="panel-body">-->
                                 ${post.body}
-                            </div>
-                        </div>
+                         <!--   </div>
+                        </div>-->
 						</#if>
 					</#if>
 				<#else>
 				</#if>
 			</#list>
+				
+		    </div>
+		</div>
+		
 			 
        
 		

@@ -1,7 +1,7 @@
 <#include "header.ftl">
 
    <#include "menu.ftl">
-
+<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -44,68 +44,73 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Marketing Icons Section -->
+		
+		<!-- How it started Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to Java User Group - Hyderabad
-                </h1>
+                <hr>
             </div>
-			<div class="col-lg-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-			</div>
+            <div class="col-md-6">
+                <p>The Java User Group started at Hyderabad in 12 January 2012</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Portfolio Section -->
+		  <!-- /.row -->
+		<!-- News Section -->
         <div class="row">
-			<div class="col-lg-12">
-				<h2 class="page-header">Activities</h2>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>activities/hackergarten.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
+            <div class="col-lg-12">
+                <h2 class="page-header">News </h2>
+            </div>
+            <div class="col-lg-12">
+			<#assign countSigned = 0> 
+            <#list posts as post> 
+				<#if post.tags ??>
+					<#if (post.tags[0] =="news") && (countSigned<=3)>
+						<!-- Project One -->
+						<div class="feed_item">
+							<div class="feed_item_title">
+								<a href="\pages\news-pages\${post.tags[1]}">
+									<b>${post.title}</b>
+								</a>
+							</div>
+							<div class="feed_item_description">
+								<p>${post.body}</p>
+							</div>						
+						</div>
+						<!-- /.row -->
+
+						<hr>
+						 <#assign countSigned = countSigned + 1>
+					</#if> 
+				<#else> 
+				</#if> 
+			</#list>  
+				
+            </div>
+           
         </div>
         <!-- /.row -->
-		
-		
-		
-		    <!-- Features Section -->
+        <!-- /.row -->
+<!-- Events Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Events </h2>
             </div>
             <div class="col-lg-12">
                <!-- start feedwind code -->
-				<script type="text/javascript" src="http://feed.mikle.com/js/rssmikle.js"></script>
+				
 				<script type="text/javascript">
 				(
 					function() {
@@ -163,49 +168,46 @@
            
         </div>
         <!-- /.row -->
-		
-		
-		
-		
-		
-		
-
-        <!-- Features Section -->
+        <!-- Portfolio Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">How it started</h2>
-            </div>
-            <div class="col-md-6">
-                <p>The Modern Business template by Start Bootstrap includes:</p>
-                <ul>
-                    <li><strong>Bootstrap v3.2.0</strong>
-                    </li>
-                    <li>jQuery v1.11.0</li>
-                    <li>Font Awesome v4.1.0</li>
-                    <li>Working PHP contact form with validation</li>
-                    <li>Unstyled page elements for easy customization</li>
-                    <li>17 HTML pages</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-            </div>
+			<div class="col-lg-12">
+				<h2 class="page-header">Activities</h2>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>activities/hackergarten.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<a href="portfolio-item.html">
+					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+				</a>
+			</div>
         </div>
         <!-- /.row -->
-
-        <hr>
-
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
-                </div>
-            </div>
-        </div>
 		
+		
+		
+		    
+		       	
    <#include "footer.ftl">
