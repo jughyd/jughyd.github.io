@@ -22,39 +22,34 @@
             <div class="col-md-6">
                 <img class="img-responsive" src="../images/${content.title}.jpg" alt="">
             </div>
-            <div class="col-md-6">
+			<div class="col-md-13">
 				<h2>${content.title}</h2>
-				<#list posts as post> 
-			<#if post.tags[0] ??>
-					<#if (post.tags[0] == "Getting Started")>
-					    <#if (post.title == content.tags[1])>
-						<!--<a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
-						 <div id="collapseOne" class="panel-collapse collapse">
-                            <div class="panel-body">-->
-                                ${post.body}
-                          <!--  </div>
-                        </div>-->
+				<!--<#list getstartacts as getstartact> 
+					<#if getstartact.tags[0] ??> -->
+						<#if (content.tags[0] == "Getting Started")>
+							<!--<#if (getstartact.title == content.tags[1])>
+							<a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Read More</a>
+							 <div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">-->
+									${content.body}
+							  <!--  </div>
+							</div>
+							</#if>-->
 						</#if>
-					</#if>
-					<#if (post.tags[0] == "Activities")>
-					 <#if (post.title == content.tags[1])>
-					<!-- <a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
-						 <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">-->
-                                ${post.body}
-                         <!--   </div>
-                        </div>-->
+						<#if (content.tags[0] == "Activities")>
+						 <!--<#if (getstartact.title == content.tags[1])>
+						 <a class="btn btn-primary" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Read More</a>
+							 <div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body">-->
+									${content.body}
+							 <!--   </div>
+							</div>
+							</#if>-->
 						</#if>
+					<!--<#else>
 					</#if>
-				<#else>
-				</#if>
-			</#list>
-				
-		    </div>
+				</#list>	-->
+			</div>
 		</div>
-		
-			 
-       
-		
-		
+	
 <#include "footer.ftl">
