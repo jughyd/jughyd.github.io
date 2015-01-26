@@ -57,9 +57,6 @@
 						<li>
 							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>news/index.html">News</a>
 						</li>
-						<li>
-							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blogs/index.html">Blogs</a>
-						</li>
 					</ul>
 				</div>
             <!-- /.navbar-collapse -->
