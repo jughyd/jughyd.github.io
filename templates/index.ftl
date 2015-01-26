@@ -74,14 +74,14 @@
                 <h2 class="page-header">News </h2>
             </div>
             <div class="col-lg-12">
-			<#assign countSigned = 0> 
+			<#assign countSigned = 1> 
             <#list posts as post> 
 				<#if post.tags ??>
 					<#if (post.tags[0] =="news") && (countSigned<=3)>
 						<!-- Project One -->
 						<div class="feed_item">
 							<div class="feed_item_title">
-								<a href="\pages\news-pages\${post.tags[1]}">
+								<a href="\news\${post.tags[1]}">
 									<b>${post.title}</b>
 								</a>
 							</div>
@@ -90,8 +90,6 @@
 							</div>						
 						</div>
 						<!-- /.row -->
-
-						<hr>
 						 <#assign countSigned = countSigned + 1>
 					</#if> 
 				<#else> 
@@ -103,7 +101,7 @@
         </div>
         <!-- /.row -->
         <!-- /.row -->
-<!-- Events Section -->
+	<!-- Events Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Events </h2>
@@ -173,41 +171,23 @@
 			<div class="col-lg-12">
 				<h2 class="page-header">Activities</h2>
 			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>activities/hackergarten.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<a href="portfolio-item.html">
-					<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-				</a>
-			</div>
+			<#assign countactivities = 1>
+			<#list getstartacts as getactivities> 
+				<#if getactivities.tags[0] ??>
+					<#if (getactivities.tags[0] == "Activities") && (countactivities<=3)>
+						<div class="col-md-4 col-sm-6">
+							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>activities/${getactivities.title?lower_case?replace(" ", "")}.html">
+								<img class="img-responsive img-portfolio img-hover" src="../images/${getactivities.title}.jpg" alt="">
+							</a>
+						</div>
+						<#assign countactivities = countactivities + 1>
+					</#if>
+				<#else>
+				</#if>
+			</#list>
+	
         </div>
         <!-- /.row -->
-		
-		
-		
-		    
+			    
 		       	
    <#include "footer.ftl">
