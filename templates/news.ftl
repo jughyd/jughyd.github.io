@@ -24,14 +24,14 @@
 					<!-- Project One -->
 					<div class="row">
 						<div class="col-md-7">
-							<a href="\pages\news-pages\${post.tags[1]}">
+							<a href="\news\${post.tags[1]}">
 								<img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
 							</a>
 						</div>
 						<div class="col-md-5">
 							<h3>${post.title}</h3>
 							<p>${post.body}</p>
-							<a class="btn btn-primary" href="\pages\news-pages\${post.tags[1]}">Read More</i></a>
+							<a class="btn btn-primary" href="\news\${post.tags[1]}">Read More</i></a>
 						</div>
 					</div>
 					<!-- /.row -->
