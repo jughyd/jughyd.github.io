@@ -3,6 +3,7 @@
 dependency-reduced-pom.xml
 target/
 output/
+output
 .classpath
 .project
 .settings
