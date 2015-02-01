@@ -9,6 +9,22 @@ status=published
 Apart form meetup which we use to schedule meetups, we use various other channels for the purpose of communicating with the group. Each channel serves its own purpose.
 
 == IRC
+Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. The chat process works on a client/server model of networking. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing. -- Wikipedia
+
+Channel: #jughyd
+EasyAccess: http://webchat.freenode.net/?channels=#jughyd[WebClient]
+
+==== _IRC Client_
+You can find list of IRC Clients http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients[Here] or http://www.ircreviews.org/clients/[Here]. If you are a FireFox user you can add https://addons.mozilla.org/en-US/firefox/addon/chatzilla/[Chatzilla] plugin. Mac http://limechat.net/mac/[LimeChat]. Linux http://xchat.org/[XChat]
+
+==== _Commands_
+Once you inside IRC client:
+*/nick <yourname>* - for chatting in IRC. Your proper name is recommended. No funny names.
+*/server irc.freenode.net* - opening the server
+*/msg nickserv register <password> <email>* - Make sure you have set /nick <name> with a proper name.
+Your nick is your username
+*/msg nickserv identify <password>* - to login to the server. Make sure you have set /nick properly.
+*/join #jughyd* - enter into jughyd channel.
 
 
 == Slack
