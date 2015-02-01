@@ -14,10 +14,12 @@ Internet Relay Chat (IRC) is an application layer protocol that facilitates tran
 Channel: #jughyd
 EasyAccess: http://webchat.freenode.net/?channels=#jughyd[WebClient]
 
+---
+
 ==== _IRC Client_
 You can find list of IRC Clients http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients[Here] or http://www.ircreviews.org/clients/[Here]. If you are a FireFox user you can add https://addons.mozilla.org/en-US/firefox/addon/chatzilla/[Chatzilla] plugin. Mac http://limechat.net/mac/[LimeChat]. Linux http://xchat.org/[XChat]
 
-==== _Commands_
+==== _Usage Instructions_
 Once you inside IRC client run the following commands. 
 
  nick <yourname>
@@ -43,11 +45,23 @@ Enter into jughyd channel.
 
 == Slack
 
+Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go. 
 
+Create open channels for the projects, groups and topics that the whole team shares.Channels increase transparency by putting knowledge in everyone’s hands. Discoverability, complete history & search across all channels is built in.
+
+Channels include messages, files & comments, inline images & video, rich link summaries and integration with the services you use every day, like Twitter, Dropbox & Google Drive.
+
+To Use Slack goto https://jughyderabad.slack.com[JUG Hyderabad Slack Site]
+
+You need to be invited to the group. Once you get an invitation, join the group and start communicating with others. 
+
+You can subscribe to the individual channels to get latest updates of the respective channel. You generally subscribe to the channels you are interested in. 
+
+image::../images/gettingstarted/slackchannels.jpg[Slack Channels]
 
 == Facebook Group
 
-
+If neither of these are interesting, just join the facebook community of https://www.facebook.com/groups/jughyd[Java User Group - Hyderabad]
 
 
 
