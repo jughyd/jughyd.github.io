@@ -1,7 +1,7 @@
-title=IRC or Slack etc
+title=IRC and Slack etc
 date=2015-02-01
 type=getstartact
-tags=Getting Started,IRC or Slack etc
+tags=Getting Started,IRC and Slack etc
 status=published
 ~~~~~~
 
@@ -18,13 +18,27 @@ EasyAccess: http://webchat.freenode.net/?channels=#jughyd[WebClient]
 You can find list of IRC Clients http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients[Here] or http://www.ircreviews.org/clients/[Here]. If you are a FireFox user you can add https://addons.mozilla.org/en-US/firefox/addon/chatzilla/[Chatzilla] plugin. Mac http://limechat.net/mac/[LimeChat]. Linux http://xchat.org/[XChat]
 
 ==== _Commands_
-Once you inside IRC client:
-*/nick <yourname>* - for chatting in IRC. Your proper name is recommended. No funny names.
-*/server irc.freenode.net* - opening the server
-*/msg nickserv register <password> <email>* - Make sure you have set /nick <name> with a proper name.
-Your nick is your username
-*/msg nickserv identify <password>* - to login to the server. Make sure you have set /nick properly.
-*/join #jughyd* - enter into jughyd channel.
+Once you inside IRC client run the following commands. 
+
+ nick <yourname>
+ 
+For chatting in IRC. Your proper name is recommended. No funny names. 
+ 
+ server irc.freenode.net
+
+Opens the irc server
+ 
+ msg nickserv register <password> <email>
+ 
+This registers the previously provided name for you
+ 
+ msg nickserv identify <password>
+ 
+To login to the server. Make sure you have set /nick properly. 
+ 
+ join #jughyd
+ 
+Enter into jughyd channel. 
 
 
 == Slack
