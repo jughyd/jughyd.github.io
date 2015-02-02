@@ -11,8 +11,8 @@ Apart form meetup which we use to schedule meetups, we use various other channel
 == IRC
 Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. The chat process works on a client/server model of networking. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing. -- Wikipedia
 
-Channel: #jughyd
-EasyAccess: http://webchat.freenode.net/?channels=#jughyd[WebClient]
+Channel: #jughyd +
+EasyAccess: link:http://webchat.freenode.net/?channels=#jughyd[WebClient]
 
 ---
 
