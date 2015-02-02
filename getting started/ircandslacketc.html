@@ -130,16 +130,21 @@
 							 <div id="collapseOne" class="panel-collapse collapse">
 								<div class="panel-body">-->
 									<div class="paragraph lead">
-<p>Apart form meetup which we use to schedule meetups, we use various other channels for the purpose of communicating with the group. Each channel serves its own purpose.</p>
+<p>Apart from the meetup site, which we use to schedule meetups, we use various other channels for the purpose of communicating with the group.</p>
 </div>
 <div class="sect1">
 <h2 id="_irc">IRC</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. The chat process works on a client/server model of networking. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing.&#8201;&#8212;&#8201;Wikipedia</p>
+<div class="quoteblock">
+<blockquote>
+Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message.
+</blockquote>
+<div class="attribution">
+&#8212; Wikipedia
+</div>
 </div>
 <div class="paragraph">
-<p>Channel: #jughyd
+<p>Channel: #jughyd<br>
 EasyAccess: <a href="http://webchat.freenode.net/?channels=#jughyd">WebClient</a></p>
 </div>
 <hr>
@@ -152,47 +157,25 @@ EasyAccess: <a href="http://webchat.freenode.net/?channels=#jughyd">WebClient</a
 <div class="sect3">
 <h4 id="__em_usage_instructions_em"><em>Usage Instructions</em></h4>
 <div class="paragraph">
-<p>Once you inside IRC client run the following commands.</p>
+<p>Once you are inside IRC client, run the following commands.</p>
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>nick &lt;yourname&gt;</pre>
+<pre>nick &lt;yourname&gt; <b class="conum">(1)</b>
+server irc.freenode.net <b class="conum">(2)</b>
+msg nickserv register &lt;password&gt; &lt;email&gt; <b class="conum">(3)</b>
+msg nickserv identify &lt;password&gt; <b class="conum">(4)</b>
+join #jughyd <b class="conum">(5)</b></pre>
 </div>
-</div>
-<div class="paragraph">
-<p>For chatting in IRC. Your proper name is recommended. No funny names.</p>
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>server irc.freenode.net</pre>
+<pre>&lt;1&gt; For chatting in IRC. Your proper name is recommended. No funny names.
+&lt;2&gt; Opens the irc server
+&lt;3&gt; This registers the previously provided name for you. This command is only required once in a life time of your user name. Once succesfully registered, you never have to register again.
+&lt;4&gt; To login to the server. Make sure you have set /nick properly.
+&lt;5&gt; Enter into jughyd channel.</pre>
 </div>
-</div>
-<div class="paragraph">
-<p>Opens the irc server</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>msg nickserv register &lt;password&gt; &lt;email&gt;</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>This registers the previously provided name for you</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>msg nickserv identify &lt;password&gt;</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>To login to the server. Make sure you have set /nick properly.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>join #jughyd</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Enter into jughyd channel.</p>
 </div>
 </div>
 </div>
