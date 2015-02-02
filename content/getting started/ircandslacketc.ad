@@ -6,10 +6,11 @@ status=published
 ~~~~~~
 
 [.lead]
-Apart form meetup which we use to schedule meetups, we use various other channels for the purpose of communicating with the group. Each channel serves its own purpose.
+Apart from the meetup site, which we use to schedule meetups, we use various other channels for the purpose of communicating with the group. 
 
 == IRC
-Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. The chat process works on a client/server model of networking. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing. -- Wikipedia
+[quote, Wikipedia]
+Internet Relay Chat (IRC) is an application layer protocol that facilitates transfer of messages in the form of text. IRC clients are computer programs that a user can install on their system. These clients are able to communicate with chat servers to transfer messages to other clients. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message.
 
 Channel: #jughyd +
 EasyAccess: link:http://webchat.freenode.net/?channels=#jughyd[WebClient]
@@ -20,27 +21,20 @@ EasyAccess: link:http://webchat.freenode.net/?channels=#jughyd[WebClient]
 You can find list of IRC Clients http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients[Here] or http://www.ircreviews.org/clients/[Here]. If you are a FireFox user you can add https://addons.mozilla.org/en-US/firefox/addon/chatzilla/[Chatzilla] plugin. Mac http://limechat.net/mac/[LimeChat]. Linux http://xchat.org/[XChat]
 
 ==== _Usage Instructions_
-Once you inside IRC client run the following commands. 
+Once you are inside IRC client, run the following commands. 
 
- nick <yourname>
- 
-For chatting in IRC. Your proper name is recommended. No funny names. 
- 
- server irc.freenode.net
 
-Opens the irc server
- 
- msg nickserv register <password> <email>
- 
-This registers the previously provided name for you
- 
- msg nickserv identify <password>
- 
-To login to the server. Make sure you have set /nick properly. 
- 
- join #jughyd
- 
-Enter into jughyd channel. 
+ nick <yourname> // <1>
+ server irc.freenode.net // <2>
+ msg nickserv register <password> <email> <3>
+ msg nickserv identify <password> <4>
+ join #jughyd <5>
+
+ <1> For chatting in IRC. Your proper name is recommended. No funny names. 
+ <2> Opens the irc server
+ <3> This registers the previously provided name for you. This command is only required once in a life time of your user name. Once succesfully registered, you never have to register again.
+ <4> To login to the server. Make sure you have set /nick properly. 
+ <5> Enter into jughyd channel. 
 
 
 == Slack
