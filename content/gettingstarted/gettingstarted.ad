@@ -1,0 +1,67 @@
+title=Getting Started
+date=2015-02-01
+type=getstartact
+tags=gettingstarted
+status=published
+~~~~~~
+
+[.lead]
+Have you come here for the first time? Not sure what all this is about?, then this is exactly the page may you want to go through. Read away. 
+
+---
+
+== JUG
+Java User Groups(JUGs) are Java Enthusiasts that come together to contribute, learn, work together for the progress of Open Source Community around the world. There are many JUGs, primarily formed based on geographic proximity. We have formed a group named Java User Group Hyderabad and have been contributing to Open Source. If you want to be a part of it, come join your hands in coding Future Java.
+
+== Join JUG Hyderabad
+Joining JUG Hyderabad is as simple as joining the meetup group http://www.meetup.com/jughyderabad/[JUG Hyderabad Meetup Group]. 
+
+image::../images/gettingstarted/joinus.jpg[Join Us]
+
+This brings up a new form asking you to fill some details about your experience with Java. Fill them and click Next. You will be presented with the welcome screen. Click Check out our next Meetup or just take a look around.
+
+image::../images/gettingstarted/filldetails.jpg[Fill Details]
+
+Once you join the meetup group, you will be regularly communicated about the events being scenduled through emails. Different kinds of events are regularly posted in the meetup for contributing. Each event is called a meetup.
+
+
+== Attending a JUG event
+If you find a meetup that is interesting, just RSVP to it. You can do that by clicking on RSVP Yes button of the respective meetup.
+
+image::../images/gettingstarted/rsvpyes.jpg[RSVP Yes]
+
+Once you follow above instructions, you will be added to going list. You can find the timings and location where the meetup is about to happen. 
+
+There is no eligibility criteria, anyone with love of Java can attend the events and last but not least it is free for all.
+
+WARNING: Make sure you attend the event if you rsvped to it. Not attending the event or Changing the rsvp status in the last minute, its bad manners. And ofcourse, be on time.
+
+
+
+== Contribute
+[.lead]
+Once you started attending the events and understand how it works, your participation and zeal to do something
+will take you to a new level where you dreamt of being in. The successful progression of Java community depends on individual participation and contribution. You can always ask questions and how to contribute to the Java community. Here is a short list for your ready reference. 
+
+1. Atttend the events regularly
+1. Join Monthly Meetings
+1. Give sessions on your favourite technologies
+1. Join an link:../activities/oscontribution.html[Open Source Project] our JUG is participating in.
+1. Participate in link:../activities/adoptajsr.html[Adopt a JSR]
+1. Write Unit Tests for the project if you are a beginner
+1. Create documentation for the project
+1. Fix bugs of the projects we are in
+1. Test and create issues on Github project page
+1. Take responsibility of a feature and code it
+1. Help new comers to get started in setting up their environment and start contributing themselves
+1. Invite your friends to the meetings
+1. Attend link:../activities/hackergarten.html[Hackergarten sessions]
+1. Find speakers who can speak
+1. Encourage others to use our open source project
+1. Find a venue for our JUG events
+1. Share and tweet about JUG Hyderabad
+1. Encourage your team members to use our open source project if applicable and allowed in your organization
+1. Comeup with ideas for new open source project
+1. Be sure not to forget enjoy what you are doing
+
+

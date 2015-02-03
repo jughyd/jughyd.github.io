@@ -29,7 +29,7 @@
 							<ul class="dropdown-menu">
 								<#list getstartacts as page>
 									<#if page.tags ??>
-										<#if (page.tags[0] == "Getting Started")>
+										<#if (page.tags[0] == "gettingstarted")>
 											<li>
 												<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${page.uri}">${page.title}</a>
 											</li>
