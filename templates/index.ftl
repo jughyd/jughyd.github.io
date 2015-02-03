@@ -13,7 +13,7 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active">
+         <!--   <div class="item active">
                 <div class="fill" style="background-image:url('/images/JUGSlide1.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Hyderabad JUG</h2>
@@ -24,7 +24,7 @@
                 <div class="carousel-caption">
                     <h2>Hackergarten</h2>
                 </div>
-            </div>
+            </div> -->
             <div class="item">
                 <div class="fill" style="background-image:url('/images/JUGSlide3.jpg');"></div>
                 <div class="carousel-caption">
@@ -51,17 +51,7 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <p>The Java User Group started at Hyderabad in 12 January 2012</p>
-                <ul>
-                    <li><strong>Bootstrap v3.2.0</strong>
-                    </li>
-                    <li>jQuery v1.11.0</li>
-                    <li>Font Awesome v4.1.0</li>
-                    <li>Working PHP contact form with validation</li>
-                    <li>Unstyled page elements for easy customization</li>
-                    <li>17 HTML pages</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+JUG Hyderabad: A Java Community (Java User Group) located in Hyderabad the capital city. The group focuses and promotes Java and related technology in and around Hyderabad. It’s a group of professionals, freshers, developers, students who use Java in day to day life as a profession, hobby or as a job and like to learn and spread the technology as a community.
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
