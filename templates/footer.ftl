@@ -4,7 +4,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; <b>JUG Hyderabad</b> 2015 | | Mixed with Bootstrap | Baked with <a href="http://jbake.org/" target="_blank">JBake</a> ${version}</p>
                 </div>
             </div>
         </footer>
