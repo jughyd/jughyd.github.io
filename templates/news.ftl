@@ -30,7 +30,13 @@
 						</div>
 						<div class="col-md-5">
 							<h3>${post.title}</h3>
-							<p>${post.body}</p>
+							<p>
+								<#if (post.body)?length &lt; 160>
+									${post.body}
+								<#else>
+									${post.body?substring(0,160)} ...
+								</#if>
+							</p>
 							<a class="btn btn-primary" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">Read More</i></a>
 						</div>
 					</div>

@@ -76,7 +76,7 @@ JUG Hyderabad: A Java Community (Java User Group) located in Hyderabad the capit
 								</a>
 							</div>
 							<div class="feed_item_description">
-								<p>${post.body}</p>
+								${post.body?substring(0,100)}...
 							</div>						
 						</div>
 						<!-- /.row -->
