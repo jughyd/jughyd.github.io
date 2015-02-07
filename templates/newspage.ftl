@@ -41,7 +41,7 @@
                 <hr>
 
                 <!-- Post Content -->
-                <p class="lead">
+                <p>
 				${content.body}				
 				</p>
 

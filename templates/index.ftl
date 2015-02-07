@@ -65,13 +65,13 @@ JUG Hyderabad: A Java Community (Java User Group) located in Hyderabad the capit
             </div>
             <div class="col-lg-12">
 			<#assign countSigned = 1> 
-            <#list posts as post> 
+            <#list newspages as post> 
 				<#if post.tags ??>
 					<#if (post.tags[0] =="news") && (countSigned<=3)>
 						<!-- Project One -->
 						<div class="feed_item">
 							<div class="feed_item_title">
-								<a href="\news\${post.tags[1]}">
+								<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">
 									<b>${post.title}</b>
 								</a>
 							</div>

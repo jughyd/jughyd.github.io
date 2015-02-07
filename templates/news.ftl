@@ -18,20 +18,20 @@
         </div>
         <!-- /.row -->
 		
-		<#list posts as post> 
+		<#list newspages as post> 
 			<#if post.tags ??>
 				<#if (post.tags[0] =="news")>
 					<!-- Project One -->
 					<div class="row">
 						<div class="col-md-7">
-							<a href="\news\${post.tags[1]}">
+							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">
 								<img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
 							</a>
 						</div>
 						<div class="col-md-5">
 							<h3>${post.title}</h3>
 							<p>${post.body}</p>
-							<a class="btn btn-primary" href="\news\${post.tags[1]}">Read More</i></a>
+							<a class="btn btn-primary" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">Read More</i></a>
 						</div>
 					</div>
 					<!-- /.row -->
