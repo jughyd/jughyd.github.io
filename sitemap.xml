@@ -1,103 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://jbake.orgabout.html</loc>
+        <loc>http://jughyderabad.in/about.html</loc>
         <lastmod>2014-12-02</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgcontact.html</loc>
+        <loc>http://jughyderabad.in/contact.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgFAQ.html</loc>
+        <loc>http://jughyderabad.in/FAQ.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgpages/easytojoin.html</loc>
+        <loc>http://jughyderabad.in/pages/easytojoin.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgpages/funinlearning.html</loc>
+        <loc>http://jughyderabad.in/pages/funinlearning.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgpages/learninghub.html</loc>
+        <loc>http://jughyderabad.in/pages/learninghub.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgnews/news-post1.html</loc>
+        <loc>http://jughyderabad.in/activities/adoptajsrpage.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jughyderabad.in/activities/coderetreatpage.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jughyderabad.in/activities/hackergartenpage.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jughyderabad.in/activities/monthlymeetingpage.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jughyderabad.in/activities/oscontributionpage.html</loc>
+        <lastmod>2013-09-24</lastmod>
+    </url>
+    <url>
+        <loc>http://jughyderabad.in/news/index.html</loc>
         <lastmod>2014-12-02</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgnews/news-post2.html</loc>
-        <lastmod>2014-12-02</lastmod>
+        <loc>http://jughyderabad.in/news/2015/java-technology-meetup-january-2015-gradle-git.html</loc>
+        <lastmod>2015-01-10</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgnews/news-post3.html</loc>
-        <lastmod>2014-12-02</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgactivities/adoptajsrpage.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgactivities/coderetreatpage.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgactivities/hackergartenpage.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgactivities/monthlymeetingpage.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgactivities/oscontributionpage.html</loc>
-        <lastmod>2013-09-24</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgnews/index.html</loc>
-        <lastmod>2014-12-02</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgnews/news-page-1.html</loc>
-        <lastmod>2014-12-02</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgnews/news-page-2.html</loc>
-        <lastmod>2014-12-02</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orgnews/news-page-3.html</loc>
-        <lastmod>2014-12-02</lastmod>
-    </url>
-    <url>
-        <loc>http://jbake.orggetting started/gettingstarted.html</loc>
+        <loc>http://jughyderabad.in/gettingstarted/gettingstarted.html</loc>
         <lastmod>2015-02-01</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orggetting started/ircandslacketc.html</loc>
+        <loc>http://jughyderabad.in/gettingstarted/ircandslacketc.html</loc>
         <lastmod>2015-02-01</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgactivities/adoptajsr.html</loc>
+        <loc>http://jughyderabad.in/activities/adoptajsr.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgactivities/coderetreat.html</loc>
+        <loc>http://jughyderabad.in/activities/coderetreat.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgactivities/hackergarten.html</loc>
+        <loc>http://jughyderabad.in/activities/hackergarten.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgactivities/monthlymeeting.html</loc>
+        <loc>http://jughyderabad.in/activities/monthlymeeting.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://jbake.orgactivities/oscontribution.html</loc>
+        <loc>http://jughyderabad.in/activities/oscontribution.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
 </urlset>
