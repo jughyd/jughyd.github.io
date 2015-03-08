@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.7'
+        classpath 'me.champeau.gradle:jbake-gradle-plugin:0.2'
+        classpath 'org.jbake:jbake-core:2.3.2'
+        classpath 'org.asciidoctor:asciidoctorj:1.5.2'
+        classpath 'org.ajoberstar:gradle-git:0.12.0'
+        classpath 'com.bluepapa32:gradle-watch-plugin:0.1.4'
+		classpath 'org.pegdown:pegdown:1.4.2'
+		classpath 'org.freemarker:freemarker:2.3.20'
+    }
+}
+
+apply plugin: 'base'
+apply plugin: 'jetty'
+apply plugin: 'me.champeau.jbake'
+apply plugin: 'com.github.ben-manes.versions'
+apply plugin: 'org.ajoberstar.github-pages'
+apply plugin: 'com.bluepapa32.watch'
+
+
+jbake {
+    configuration['asciidoctor.attributes.export'] = true
+    configuration['asciidoctor.attributes.export.prefix'] = 'jbake-'
+    configuration['project-build-dir'] = project.buildDir.absolutePath
+	
+}
+
+task(site, type: Copy, dependsOn: [jbake]) {
+    destinationDir = file("$buildDir/site")
+    from jbake.output
+}
+
+watch {
+    site_gen {
+        files fileTree(dir: 'src/jbake', include: '**/*.adoc')
+        tasks 'site'
+    }
+}
+
+jettyRun {
+    contextPath = ''
+    webAppSourceDirectory = file(site.destinationDir)
+}
+
+task(siteRun, dependsOn: ['site', 'jettyRun']) { }
+
+if (!project.hasProperty('githubUsername')) ext.githubUsername = ''
+if (!project.hasProperty('githubPassword')) ext.githubPassword = ''
+
+githubPages {
+    repoUri = 'https://github.com/jsr377/site'
+    pages {
+        from site.outputs.files
+    }
+
+    credentials {
+        username = githubUsername
+        password = githubPassword
+    }
+}
+
+publishGhPages.dependsOn(site)
+
