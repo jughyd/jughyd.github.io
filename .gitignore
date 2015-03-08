@@ -2,10 +2,12 @@
 dependency-reduced-pom.xml
 target/
 output/
+build/
 output
 .classpath
 .project
 .settings
+.gradle/
 *.iml
 *.ipr
 *.iws
