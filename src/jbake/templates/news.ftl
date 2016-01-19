@@ -17,17 +17,22 @@
             </div>
         </div>
         <!-- /.row -->
+  JUGHyd Twitter timeline. For event schedule visit <a href="meetup.com/jughyderabad">meetup page</a>
+  <div class="row text-center">
+		 <a class="twitter-timeline" href="https://twitter.com/JUGHYD" data-widget-id="689522274202886144">Tweets by @JUGHYD</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </div>
 		
 		<#list newspages as post> 
 			<#if post.tags ??>
 				<#if (post.tags[0] =="news")>
 					<!-- Project One -->
 					<div class="row">
-						<div class="col-md-7">
+                                                <!--Removing images--> 
+						<!--<div class="col-md-7">
 							<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">
 								<img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
 							</a>
-						</div>
+						</div>-->
 						<div class="col-md-5">
 							<h3>${post.title}</h3>
 							<p>
@@ -40,6 +45,7 @@
 							<a class="btn btn-primary" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}">Read More</i></a>
 						</div>
 					</div>
+                                       
 					<!-- /.row -->
 
 					<hr>
@@ -47,11 +53,9 @@
 			<#else> 
 			</#if> 
 		</#list>
-        
-		
-
+      
         <!-- Pagination -->
-        <div class="row text-center">
+        <!--<div class="row text-center">
             <div class="col-lg-12">
                 <ul class="pagination">
                     <li>
@@ -77,7 +81,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>-->
         <!-- /.row -->
 
 <#include "footer.ftl">
