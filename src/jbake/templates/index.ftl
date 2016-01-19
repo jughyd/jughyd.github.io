@@ -13,7 +13,7 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-         <!--   <div class="item active">
+            <div class="item active">
                 <div class="fill" style="background-image:url('/images/JUGSlide1.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Hyderabad JUG</h2>
@@ -24,7 +24,7 @@
                 <div class="carousel-caption">
                     <h2>Hackergarten</h2>
                 </div>
-            </div> -->
+            </div> 
             <div class="item">
                 <div class="fill" style="background-image:url('/images/JUGSlide3.jpg');"></div>
                 <div class="carousel-caption">
@@ -53,9 +53,9 @@
             <div class="col-md-6">
 JUG Hyderabad: A Java Community (Java User Group) located in Hyderabad the capital city. The group focuses and promotes Java and related technology in and around Hyderabad. It’s a group of professionals, freshers, developers, students who use Java in day to day life as a profession, hobby or as a job and like to learn and spread the technology as a community.
             </div>
-            <!--<div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-            </div>-->
+            <div class="col-md-6">
+                <img class="img-responsive" src="images/jughyd.jpg" alt="JUGHyderabad">
+            </div>
         </div>
 		  <!-- /.row -->
 		<!-- News Section -->
