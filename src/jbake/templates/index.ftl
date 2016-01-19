@@ -53,9 +53,9 @@
             <div class="col-md-6">
 JUG Hyderabad: A Java Community (Java User Group) located in Hyderabad the capital city. The group focuses and promotes Java and related technology in and around Hyderabad. It’s a group of professionals, freshers, developers, students who use Java in day to day life as a profession, hobby or as a job and like to learn and spread the technology as a community.
             </div>
-            <div class="col-md-6">
+            <!--<div class="col-md-6">
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-            </div>
+            </div>-->
         </div>
 		  <!-- /.row -->
 		<!-- News Section -->
