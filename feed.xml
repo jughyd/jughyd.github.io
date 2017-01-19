@@ -6,8 +6,8 @@
     <atom:link href="http://jughyderabad.in//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sun, 8 Mar 2015 18:44:30 +0530</pubDate>
-    <lastBuildDate>Sun, 8 Mar 2015 18:44:30 +0530</lastBuildDate>
+    <pubDate>Fri, 20 Jan 2017 01:26:42 +0530</pubDate>
+    <lastBuildDate>Fri, 20 Jan 2017 01:26:42 +0530</lastBuildDate>
 
     <item>
       <title>Adopt a JSR</title>
@@ -15,8 +15,7 @@
       <pubDate>Tue, 24 Sep 2013 00:00:00 +0530</pubDate>
       <guid isPermaLink="false">activities/adoptajsrpage.html</guid>
       	<description>
-	
-&lt;/p&gt;&lt;p&gt;The tasks that we deal with in London typically fall into three categories, starter, intermediate and advanced. The Adopt a JSR team will typically take a look at the JSR and ask the Spec Lead / Expert Group what help they require and/or volunteer for an area that they find particularly interesting. In particular you can look at:
+	&lt;/p&gt;&lt;p&gt;The tasks that we deal with in London typically fall into three categories, starter, intermediate and advanced. The Adopt a JSR team will typically take a look at the JSR and ask the Spec Lead / Expert Group what help they require and/or volunteer for an area that they find particularly interesting. In particular you can look at:
 
 &lt;/p&gt;&lt;ol&gt;&lt;li&gt; &lt;a class=&apos;external&apos; href=&quot;http://java.net/jira/browse/ADOPTAJSR&quot;&gt;Our Issue Tracker&lt;/a&gt;&lt;/li&gt;&lt;li&gt; Additional &lt;a class=&apos;external&apos; href=&quot;http://glassfish.java.net/adoptajsr/&quot;&gt;Glassfish/JEE Adopt a JSR items&lt;/a&gt;&lt;/li&gt;&lt;li&gt; &lt;a class=&apos;external&apos; href=&quot;http://www.github.com/Adopt-aJSR&quot;&gt;Our GitHub Repo&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;a name=&apos;What_do_I_run?&apos;&gt;&lt;/a&gt; What do I run? &lt;/h2&gt;
 &lt;p&gt;
@@ -78,6 +77,8 @@ Each JSR should run its own infrastructure (the Spec lead / EG will have the det
 &lt;p&gt;
 You&apos;ll find the deadlines on the official JSR page at JCP.org for each JSR. The Spec Lead and EG will be able to guide you on the deadlines they are working towards. You can also check the Community tab of each JSR page on JCP.org for suggestions from the Spec Lead on how to contribute to their JSR via the Adopt-a-JSR Program.
 
+
+
 	</description>
     </item>
     <item>
@@ -124,32 +125,49 @@ Practicing the basic principles of modular and object-oriented design, developer
       <guid isPermaLink="false">activities/monthlymeetingpage.html</guid>
       	<description>
 	
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus. 
-Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet 
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
+Please refer to your &lt;a href=&quot;meetup.com/jughyderabad&quot;&gt;meetup site&lt;/a&gt; for more information about our monthly meetings
 
 	</description>
     </item>
     <item>
-      <title>OS Contribution</title>
+      <title>Open Source Contributions</title>
       <link>http://jughyderabad.in//activities/oscontributionpage.html</link>
       <pubDate>Tue, 24 Sep 2013 00:00:00 +0530</pubDate>
       <guid isPermaLink="false">activities/oscontributionpage.html</guid>
       	<description>
 	
-ohter content/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus. 
-Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet 
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
+&lt;p&gt;At Java User Group we encourage developers to do open source contributions. Java User Group Hyderabad
+&lt;a href=&quot;https://github.com/jughyd&quot;&gt;GitHub repository&lt;/a&gt; is a good place to start.
+Java User Group conducts regular meetings in order to do knowledge sharing. However its also important to
+give back to the Java community from which we have gave gained so much.
+If you want to discuss specific JUG Project the JUG Hyderabad slack channel is active and you can contact
+project owners there.
+If you want to start a new project, feel free to propose one in the slack #general channel or during
+the Hackergarten sessions.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+    For newbies
+&lt;ol&gt;
+    &lt;li&gt;There are multiple projects online on github and bitbucket
+    &lt;li&gt;Choose One. Finding choosing difficult? goto 4. If you don&apos;t like any, goto 3
+    &lt;li&gt;Create a new repository assuming you have a brilliant/dumb idea. Blog about it &amp; let friends know.
+    &lt;li&gt;Join a User Group. Mingle to find projects people are working on. Chances are less that you are in Hyderabad but in case if you are join us http://jughyderabad.in/--&gt;
+    &lt;li&gt;Fork the repository of your liking. Liking is a overloaded term. It may signify language, interest, philosophy ...--&gt;
+    &lt;li&gt;Check the issue list of the project you liked/forked. If you don&apos;t understand anything goto 7 else goto 8
+    &lt;li&gt;Subscribe to project mailing list or ask questions on IRC channel of the project
+    &lt;li&gt;Request that the issue be assigned to you
+    &lt;li&gt;Read the Readme and How to contribute section in the repository. You may need to understand Gerrit/Jira. Read!
+    &lt;li&gt;Fix the issue in your forked branch
+    &lt;li&gt;Run the tests for that project. See if all pass! this is important. If there no tests, create.
+    &lt;li&gt;Create a pull request to sumbit your patch
+    &lt;li&gt;Party if your pull request gets accepted. If not go back to 6 or 1 based on your motivation levels
+&lt;/ol&gt;
+
+For some motivation please read the Paper by Eric Raymond &lt;a href=&quot;http://www.catb.org/esr/faqs/hacker-howto.html&quot;&gt;How to become a Hacker&quot;&lt;/a&gt;
+&lt;/p&gt;
+
 
 	</description>
     </item>
